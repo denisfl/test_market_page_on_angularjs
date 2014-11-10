@@ -1,0 +1,17 @@
+$screen-sm-min: 640px;
+$screen-md-min: 768px;
+$screen-lg-min: 1170px;
+
+$containerWidth: 960px;
+
+$width: 100%; // Ширина страницы
+$columns: 12; // Количество колонок
+$col_margin: 0; // Отступы между колонками
+$col_padding: 0.8%;
+$col_padding-xs: 2.4%;
+
+// Считаем ширину одной колонки
+$col_width: ($width - ($col_margin * ($columns - 1))) / $columns;
+$col_total_width: $col_width + $col_margin;
+
+

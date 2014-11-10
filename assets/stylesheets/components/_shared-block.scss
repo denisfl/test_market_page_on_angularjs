@@ -1,0 +1,42 @@
+.item-share {	
+	position: relative;		
+	display: block;
+	margin-bottom: 20px;
+	
+	.touch & {display: none;}
+}
+	.share-text {
+		
+	}
+
+	.share-dropdown {
+		// display: none;
+		position: absolute;
+		top: 100%;
+		margin-top: 10px;		
+		z-index: 10;
+		background-color: #f7f7f7;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, .15);
+					
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: -18px;
+			left: 20px;
+			// left: 50%;
+			// margin-left: -9px;
+			z-index: 1;
+			@include triangle(18px, #f7f7f7, up);
+		}	
+
+		// .item-share:hover & {display: block;}	
+	}
+
+	.share-list {		
+		@extend %list-unstyled;
+		margin: 0;
+		padding: 10px 20px;	
+		
+		> li {padding: 2px 0;}	
+	}

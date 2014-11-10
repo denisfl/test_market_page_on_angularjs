@@ -1,0 +1,515 @@
+/* line 14, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/clearfix */
+.item-thumbs {
+  *zoom: 1; }
+  /* line 4, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/clearfix */
+  .item-thumbs:before, .item-thumbs:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  /* line 9, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/clearfix */
+  .item-thumbs:after {
+    clear: both; }
+
+/* line 6, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/list-unstyled */
+.share-list {
+  margin-left: 0;
+  list-style-type: none; }
+
+/* line 19, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/list-inline */
+.pager {
+  margin-left: 0;
+  list-style-type: none; }
+  /* line 7, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/list-inline */
+  .pager > li {
+    display: inline-block; }
+
+/* line 5, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/base */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 10, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/base */
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/* line 15, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/base */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+/* line 21, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/base */
+.link-dashed {
+  border-bottom: 1px dashed #06C;
+  cursor: pointer; }
+  /* line 25, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/base */
+  .link-dashed:hover {
+    border-bottom-color: #333; }
+
+/* line 1, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2.4%;
+  padding-left: 2.4%;
+  max-width: 1170px; }
+  @media (min-width: 768px) {
+    .container {
+      padding-right: 0.8%;
+      padding-left: 0.8%; } }
+
+/* line 16, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.row {
+  margin-left: -0.8%;
+  margin-right: -0.8%;
+  *zoom: 1; }
+  /* line 4, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/clearfix */
+  .row:before, .row:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  /* line 9, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/clearfix */
+  .row:after {
+    clear: both; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-1 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-2 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-3 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-4 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-5 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-6 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-7 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-8 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-9 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-10 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-11 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-12 {
+  position: relative;
+  float: left;
+  padding-right: 0.8%;
+  padding-left: 0.8%;
+  min-height: 1px; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-1 {
+  width: 8.3333333333%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-2 {
+  width: 16.6666666667%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-3 {
+  width: 25%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-4 {
+  width: 33.3333333333%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-5 {
+  width: 41.6666666667%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-6 {
+  width: 50%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-7 {
+  width: 58.3333333333%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-8 {
+  width: 66.6666666667%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-9 {
+  width: 75%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-10 {
+  width: 83.3333333333%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-11 {
+  width: 91.6666666667%; }
+
+/* line 46, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+.col-xs-12 {
+  width: 100%; }
+
+@media (min-width: 768px) {
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-1 {
+    width: 8.3333333333%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-2 {
+    width: 16.6666666667%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-3 {
+    width: 25%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-4 {
+    width: 33.3333333333%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-5 {
+    width: 41.6666666667%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-6 {
+    width: 50%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-7 {
+    width: 58.3333333333%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-8 {
+    width: 66.6666666667%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-9 {
+    width: 75%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-10 {
+    width: 83.3333333333%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-11 {
+    width: 91.6666666667%; }
+
+  /* line 54, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-md-12 {
+    width: 100%; }
+ }
+
+@media (min-width: 1170px) {
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-1 {
+    width: 8.3333333333%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-2 {
+    width: 16.6666666667%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-3 {
+    width: 25%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-4 {
+    width: 33.3333333333%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-5 {
+    width: 41.6666666667%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-6 {
+    width: 50%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-7 {
+    width: 58.3333333333%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-8 {
+    width: 66.6666666667%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-9 {
+    width: 75%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-10 {
+    width: 83.3333333333%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-11 {
+    width: 91.6666666667%; }
+
+  /* line 62, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/grid */
+  .col-lg-12 {
+    width: 100%; }
+ }
+
+/* line 1, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/content */
+.page-space {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  @media (min-width: 768px) {
+    .page-space {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
+
+/* line 10, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/content */
+.sidebar-space {
+  padding-top: 20px; }
+  @media (min-width: 768px) {
+    .sidebar-space {
+      padding-top: 56px; } }
+
+/* line 17, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/content */
+.table-space {
+  margin-top: 20px; }
+
+/* line 20, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/content */
+.table {
+  width: 100%; }
+
+/* line 23, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/content */
+td, th {
+  padding: 5px 2px; }
+  @media (min-width: 768px) {
+    td, th {
+      padding: 5px; } }
+
+/* line 33, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/content */
+tbody > tr.even {
+  background-color: #fff; }
+/* line 36, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/content */
+tbody > tr.odd {
+  background-color: #f1f1f1; }
+
+@media (max-width: 768px) {
+  .td-action .sc-button-small.sc-button-follow {
+    width: auto; } }
+
+/* line 1, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product */
+.page-title-space {
+  padding-bottom: 15px; }
+
+/* line 5, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product */
+.item-price {
+  margin-bottom: 20px; }
+
+/* line 9, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product */
+.item-price-amount {
+  font-size: 24px; }
+
+/* line 14, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product */
+.item-thumbs {
+  margin: 10px 0;
+  list-style: none; }
+  /* line 19, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product */
+  .item-thumbs > li {
+    margin: 0 5px;
+    padding: 0;
+    width: 70px;
+    height: 53px;
+    float: left; }
+
+/* line 27, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product */
+.item-thumbs-link {
+  display: block;
+  padding: 5px;
+  height: 100%;
+  border: 4px solid transparent;
+  cursor: pointer;
+  transition: border-bottom-color 0.2s ease-in-out; }
+  /* line 35, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product */
+  .item-thumbs-link:hover {
+    border-bottom-color: #999; }
+  /* line 38, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product */
+  .item-thumbs-link.active, .item-thumbs-link.active:hover {
+    border-bottom-color: #06C; }
+
+/* line 1, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/pager */
+.pager {
+  margin: 0 0 20px -20px; }
+  /* line 5, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/pager */
+  .pager > li {
+    margin-left: 20px; }
+
+/* line 1, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/product-features */
+.item-features {
+  margin-top: 20px; }
+
+/* line 1, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/shared-block */
+.item-share {
+  position: relative;
+  display: block;
+  margin-bottom: 20px; }
+  /* line 6, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/shared-block */
+  .touch .item-share {
+    display: none; }
+
+/* line 12, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/shared-block */
+.share-dropdown {
+  position: absolute;
+  top: 100%;
+  margin-top: 10px;
+  z-index: 10;
+  background-color: #f7f7f7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); }
+  /* line 22, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/shared-block */
+  .share-dropdown:before {
+    content: '';
+    position: absolute;
+    top: -18px;
+    left: 20px;
+    z-index: 1;
+    height: 0;
+    width: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 9px;
+    border-bottom-color: #f7f7f7; }
+
+/* line 36, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/shared-block */
+.share-list {
+  margin: 0;
+  padding: 10px 20px; }
+  /* line 41, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/shared-block */
+  .share-list > li {
+    padding: 2px 0; }
+
+/* line 3, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/similar-product */
+.similar-product {
+  padding-left: 60px; }
+
+/* line 10, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/similar-product */
+.similar-product-img {
+  float: left;
+  margin-top: 18px;
+  margin-left: -60px; }
+
+/* line 5, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.nowrap {
+  white-space: nowrap; }
+
+/* line 8, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.b--right {
+  float: right; }
+
+/* line 9, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.b--left {
+  float: left; }
+
+/* line 12, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.ta--left {
+  text-align: left; }
+
+/* line 13, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.ta--right {
+  text-align: right; }
+
+/* line 14, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.ta--center {
+  text-align: center; }
+
+/* line 17, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.hide {
+  display: none; }
+
+/* line 18, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.show {
+  display: block; }
+
+/* line 21, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.invisible {
+  visibility: hidden; }
+
+/* line 24, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+.cf, .clearfix {
+  *zoom: 1; }
+  /* line 4, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/clearfix */
+  .cf:before, .cf:after, .clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  /* line 9, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/mixins/clearfix */
+  .cf:after, .clearfix:after {
+    clear: both; }
+
+@media (max-width: 640px) {
+  /* line 32, /Users/denisfl/WebDevelopment/personal/grunt_market_on_angularjs/assets/stylesheets/components/utilities */
+  .hidden-xs {
+    display: none; }
+ }
+
+
+/*# sourceMappingURL=application.css.map */

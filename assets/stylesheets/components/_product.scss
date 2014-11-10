@@ -1,0 +1,41 @@
+.page-title-space {
+	padding-bottom: 15px;	
+}
+
+.item-price {
+	margin-bottom: 20px;
+}
+
+.item-price-amount {
+	font-size: 24px;
+}
+
+
+.item-thumbs {
+	margin: 10px 0;
+	list-style: none;
+	@extend %clearfix;
+	
+	> li {
+		margin: 0 5px;
+		padding: 0;
+		width: 70px;
+		height: 53px;
+		float: left;
+	}
+}
+	.item-thumbs-link {
+		display: block;
+		padding: 5px;
+		height: 100%;
+		border: 4px solid transparent;
+		cursor: pointer;
+		transition: border-bottom-color .2s ease-in-out;
+
+		&:hover {border-bottom-color: #999;}
+		
+		&.active,
+		&.active:hover {
+			border-bottom-color: #06C;
+		}
+	}

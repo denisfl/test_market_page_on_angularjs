@@ -1,0 +1,48 @@
+.page-space {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+	@media (min-width: $screen-md-min) { 
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+.sidebar-space {
+	padding-top: 20px;
+	@media (min-width: $screen-md-min) { 
+		padding-top: 56px;
+	}	
+}
+
+.table-space {margin-top: 20px;}
+
+
+.table {
+	width: 100%;
+}
+td, th {
+	padding: 5px 2px;
+	
+	@media (min-width: $screen-md-min) { 
+			padding: 5px;
+	}
+}
+
+tbody {
+	> tr {
+		&.even {
+			background-color: #fff;
+		}
+		&.odd {
+			background-color: #f1f1f1;
+		}
+	}
+}
+
+.td-action {
+	.sc-button-small.sc-button-follow {
+		@media (max-width: $screen-md-min) { 
+			width: auto;
+		}
+	}
+}

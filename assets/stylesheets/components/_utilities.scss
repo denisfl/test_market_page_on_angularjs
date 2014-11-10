@@ -1,0 +1,44 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+.nowrap {white-space: nowrap;}
+
+// Quick floats
+.b--right {float: right;}
+.b--left  {float: left;}
+
+// Text align
+.ta--left   {text-align: left;}
+.ta--right  {text-align: right;}
+.ta--center {text-align: center;}
+
+// Toggling content
+.hide {display: none;}
+.show {display: block;}
+
+// Visibility
+.invisible {visibility: hidden;}
+
+// Clearing floats
+.cf, .clearfix {
+  @include clearfix();
+}
+
+
+
+
+@media (max-width: $screen-sm-min) { 	
+	.hidden-xs {display: none;}	
+}
+
+@media (min-width: $screen-sm-min) { 	
+
+}
+
+@media (min-width: $screen-md-min) { 
+}
+
+@media (min-width: $screen-lg-min) { 
+
+}

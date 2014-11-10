@@ -1,0 +1,61 @@
+	
+{
+	"id": "lenovo-yoga-tablet-10-hd-32-gb-3g",
+	"name": "Lenovo Yoga Tablet 10 HD+ 32GB 3G",
+	"price": "15 990",
+	"main_features": [
+		"планшет с Android 4.4",
+		"экран 10.1\", 1920x1200",
+		"встроенная память 32 Гб",
+		"поддержка карт памяти microSD",
+		"связь по Wi-Fi, Bluetooth, 3G",
+		"навигация GPS",
+		"вес 626 г"
+	],
+	"thums": [
+    	"assets/images/product-thumb-01.jpeg", 
+    	"assets/images/product-thumb-02.jpeg", 
+    	"assets/images/product-thumb-03.jpeg", 
+    	"assets/images/product-thumb-04.jpeg", 
+    	"assets/images/product-thumb-05.jpeg"
+	],
+	"images": [
+    	"assets/images/product-img-01.jpeg", 
+    	"assets/images/product-img-02.jpeg", 
+    	"assets/images/product-img-03.jpeg", 
+    	"assets/images/product-img-04.jpeg", 
+    	"assets/images/product-img-05.jpeg"
+	],
+	"shops": [
+		{
+			"shop_name": "ON NO",
+			"shop_rate": "1",
+			"shop_reviews": "11 отзывов",
+			"shop_delivery": "Бесплатно",
+			"shop_price": "15 600"
+		},
+		{
+			"shop_name": "СВЯЗНОЙ",
+			"shop_rate": "4",
+			"shop_reviews": "294 отзыва",
+			"shop_delivery": "Бесплатно",
+			"shop_price": "15 990"
+		},
+		{
+			"shop_name": "Ситилинк",
+			"shop_rate": "4",
+			"shop_reviews": "2674 отзыва",
+			"shop_delivery": "190 руб.",
+			"shop_price": "15 990"
+		},
+		{
+			"shop_name": "HOLODILNIK.RU",
+			"shop_rate": "3",
+			"shop_reviews": "51 отзыв",
+			"shop_delivery": "200 руб.",
+			"shop_price": "16 990"
+		}
+
+	]
+
+}

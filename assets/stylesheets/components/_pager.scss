@@ -1,0 +1,6 @@
+.pager {
+	@extend %list-inline;
+	margin: 0 0 20px -20px;
+	
+	> li {margin-left: 20px;}
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru" ng-app="marketApp">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="http://soundcloud.github.io/sc.css/css/sc.css">
+        <link rel="stylesheet" href="./assets/stylesheets/application.css">
+        <script src="./assets/javascripts/vendor/modernizr.js"></script>
+    </head>
+    <body>
+        <div class="container page-space">
+            <div class="row">
+                <!-- Product details -->
+                <main class="page-content col-xs-12 col-md-12 col-lg-9" ng-controller="ProductDetails">
+                  <h1 class="item-title page-title-space">{{productDetails.name}}</h1>
+                  <div class="row">
+                    <div class="col-xs-12 col-md-6 col-lg-5">
+                        <!-- product_images -->
+                        <div class="item-main-img">
+                            <img ng-src="{{mainImage}}" alt="{{productDetails.name}}">
+                        </div>
+                        <ul class="item-thumbs">
+                            <li ng-repeat="(currentImgIndex, img) in productDetails.images" >
+                              <a class="item-thumbs-link" ng-class="{active: img == selected}" ng-click="setImage(img, currentImgIndex)">
+                                <img ng-src="{{img}}" alt="{{productDetails.name}}">
+                              </a>
+                            </li>
+                        </ul>
+                        <ul class="pager ta--center">
+                          <li><a class="pager-link link-dashed" ng-click="viewPrevImage()">← Назад</a></li>
+                          <li><a class="pager-link link-dashed" class="sc-buylink sc-buylink-medium sc-buylink-default" ng-click="viewNextImage()">Вперед →</a></li>
+                        </ul>
+                        <!-- ./ product_images -->
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-7">
+                      <div class="row">
+                        <div class="col-xs-12 col-md-12 col-lg-5">
+                          <div class="item-price">
+                            Средняя цена:
+                            <div class="item-price-amount">{{productDetails.price}} руб.</div>
+                          </div> 
+                          <div class="item-share">
+                            <a class="link-dashed" ng-click="showDropdown=!showDropdown">Поделиться</button>
+                            <div class="share-dropdown" ng-show="showDropdown" ng-mouseleave="showDropdown=false">
+                              <ul class="share-list">
+                                <li><a href="#" class="share-link">Twitter</a></li>
+                                <li><a href="#" class="share-link">Facebook</a></li>
+                                <li><a href="#" class="share-link">Vkontaker</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>              
+                        <div class="col-xs-12 col-md-12 col-lg-7">
+                            <!-- product_features -->
+                            <h2>Основные характеристики</h2>
+                            <div class="item-features">
+                                <button ng-model="hide" ng-if="hide" ng-click="setHideElement()" class="sc-button sc-button-follow " type="button">Показать характеристики</button>
+                                <ul class="item-features-list">
+                                    <li ng-repeat="feature in productDetails.main_features" 
+                                        ng-hide="hide"  
+                                        ng-if="!hide"
+                                        ng-dblclick="removeFeatures(hide=!hide)"
+                                        title="Скрыть характеристику по двойному клику"
+                                        >{{feature}}</li>   
+                                </ul>   
+                            </div>                            
+                            <!-- ./ product_features -->
+                        </div>                   
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                        <!-- best_deals -->
+                        <h2>Лучшие предложения</h2>
+                        <table class="table table-space">
+                          <thead>
+                            <tr>
+                              <th class="ta--left">Магазины</th>
+                              <th class="hidden-xs"></th>
+                              <th class="ta--center">Доставка</th>
+                              <th class="ta--right">Цена</th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr ng-repeat="shop in productDetails.shops" ng-class-odd="'odd'" ng-class-even="'even'">
+                              <td>{{shop.shop_name}}</td>      
+                              <td class="hidden-xs ta--center">{{shop.shop_reviews}}</td>
+                              <td class="ta--center">{{shop.shop_delivery}}</td>
+                              <td class="nowrap ta--right">{{shop.shop_price}} руб.</td>
+                              <td class="td-action ta--center">
+                                <button class="sc-button sc-button-follow sc-button-small">          
+                                  <span class="">Купить</span>
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>                                  
+                        <!-- ./ best_deals -->
+                    </div>
+                  </div>
+                </main>                
+                <!-- ./ product details -->
+                <!-- Sidebar -->
+                <aside ng-controller="SimilarProducts" class="page-sidebar sidebar-space col-xs-12 col-md-12 col-lg-3">
+                    <h2>Похожие продукты</h2>
+                    <div class="row"  ng-repeat="product in similarProducts | orderBy: orderProp"> 
+                        <div class="col-xs-12 similar-product">
+                            <a href="products/{{product.id}}">
+                                <img ng-src="{{product.thumb}}" alt="{{product.name}}" class="similar-product-img">                               
+                                <h3>{{product.name}}</h3>
+                            </a>
+
+                            <p>Цена: {{product.price}} руб.</p>     
+                        </div>      
+                    </div>
+                </aside>
+                <!-- ./ Sidebar -->
+
+            </div>
+        </div>
+        <script src="./bower_components/angular/angular.js"></script>
+        <script src="./assets/javascripts/controllers.js"></script>
+    </body>
+</html>

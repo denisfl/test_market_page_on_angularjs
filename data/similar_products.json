@@ -1,0 +1,27 @@
+[
+	{	
+		"id": "lenovo-yoga-tablet-10-hd-16gb-3g",
+		"thumb": "assets/images/spt-img-01.jpeg",
+		"name": "Lenovo Yoga Tablet 10 HD+ 16Gb 3G",
+		"price": "13 770"
+	},	
+	{
+		"id": "lenovo-yoga-tablet-10-16gb-3g",
+		"thumb": "assets/images/spt-img-02.jpeg",
+		"name": "Lenovo Yoga Tablet 10 16Gb 3G",
+		"price": "10 990"
+	},
+	{
+		"id": "lenovo-yoga-tablet-8-32gb-3g",
+		"thumb": "assets/images/spt-img-03.jpeg",
+		"name": "Lenovo Yoga Tablet 8 32GB 3G",
+		"price": "9 990"
+	},
+	{
+		"id": "lenovo-yoga-tablet-10-hd-32gb",
+		"thumb": "assets/images/spt-img-04.jpeg",
+		"name": "Lenovo Yoga Tablet 10 HD+ 32GB",
+		"price": "13 664"
+	}
+
+]

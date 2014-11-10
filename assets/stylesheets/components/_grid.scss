@@ -1,0 +1,66 @@
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: $col_padding-xs;
+	padding-left: $col_padding-xs;	
+	
+	max-width: $screen-lg-min;
+	
+	@media (min-width: $screen-md-min) { 
+		padding-right: $col_padding;
+		padding-left: $col_padding;	
+
+	}
+}
+
+.row {	
+	margin-left:  -$col_padding;
+	margin-right: -$col_padding;
+	@include clearfix;
+}
+
+// Миксин для одной колонки
+@mixin col($n: 1) {
+	position: relative;
+	float: left;
+	padding-right: $col_padding;
+	padding-left: $col_padding;			
+	min-height: 1px;
+}
+
+// Отдельно делаем миксин для генерации ширины колонок,
+// чтобы использовать его в meida queries
+@mixin col-width($n: 1) {
+	width: ($n * $col_width) + (($n - 1) * $col_margin);
+}
+
+@for $i from 1 through $columns {
+	.col-xs-#{$i} {
+		@include col($i);
+	}
+}		
+
+// Генерируем список блоков сетки
+// @media (min-width: $screen-sm-min) { 	
+	@for $i from 1 through $columns {
+		.col-xs-#{$i} {
+			@include col-width($i);
+		}
+	}
+// }
+
+@media (min-width: $screen-md-min) { 
+	@for $i from 1 through $columns {
+		.col-md-#{$i} {
+			@include col-width($i);
+		}
+	}
+}
+
+@media (min-width: $screen-lg-min) { 
+	@for $i from 1 through $columns {
+		.col-lg-#{$i} {			
+			@include col-width($i);
+		}
+	}
+}
